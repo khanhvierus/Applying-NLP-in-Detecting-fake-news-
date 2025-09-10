@@ -5,6 +5,8 @@ Explore important & exciting facts around the dataset , the main goal is buildin
 - Data : fake-news-detection-datasets from Kaggle
 - Tool : Python
 - Models applied : Logistic Regression , Linear SVC
-- Main libraries that need to be installed : pandas , numpy , matplotlib , seaborn , scikit-learn ,... 
+- Main libraries that need to be installed : pandas , numpy , matplotlib , seaborn , scikit-learn ,...
+### Project Pipiline:
+![Image](https://github.com/user-attachments/assets/60f12958-4acd-4da2-b302-3c22a469fb17)
 ### Result: 
 We evaluated each classifier's performance using metrics such as accuracy, precision, recall, and F1 score. The results are documented in the project file.
