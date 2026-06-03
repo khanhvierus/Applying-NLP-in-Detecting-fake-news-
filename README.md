@@ -36,6 +36,16 @@ The project utilizes the MisinfoSuperset dataset.
 * **Large Language Models (LLMs):** Fine-tuned BERT and XLNet using a custom hybrid architecture. This design combined 768-dimensional contextual embeddings with the 30 numerical features through dense layers.
 * **Advanced Optimization:** Leveraged the Optuna framework, Mixed Precision Training (AMP), gradient accumulation, and early stopping to stabilize training and avoid overfitting.
 
+### Phase 7: Evaluation
+* Evaluated baseline traditional Machine Learning models including Logistic Regression and LinearSVC.
+* Implemented and fine-tuned advanced Large Language Models, specifically BERT and XLNet. 
+* Designed a hybrid architecture for the deep learning models to process both textual embeddings and numerical features simultaneously.
+
+### Key Results
+* **Logistic Regression:** Achieved 93.80% accuracy but showed signs of overfitting.
+* **LinearSVC (Optimized):** Delivered 92.62% accuracy with excellent generalization and fast training times.
+* **XLNet:** Reached 94.70% accuracy, providing a solid balance between performance and training efficiency.
+* **BERT (Fine-tuned):** Achieved the highest overall performance with an accuracy of 95.59%.
 ---
 
 ## Workflow Diagram
